@@ -10,7 +10,7 @@ public class TestContainer {
 	public void myTest() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
 		FileWriterService service = context.getBean("fileWriterService", FileWriterService.class);
-		service.write("hello world Spring IOC");
+		service.write("hello world");
 		((ConfigurableApplicationContext) context).close();
 	}
 }
