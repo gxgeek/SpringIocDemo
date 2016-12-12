@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringIoc.iml" filepath="$PROJECT_DIR$/SpringIoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringIocDemo.iml" filepath="$PROJECT_DIR$/SpringIocDemo.iml" />
     </modules>
   </component>
 </project>
