@@ -15,10 +15,11 @@ import org.springframework.stereotype.Component;
 public class FileWriterService {
 	
     @Value("#{configProperties['url']}")
-    private static String url="1.txt";
+    private String url;
 	private FileOutputStream out;	
 	@PostConstruct
 	public void init() throws IOException {
+		System.out.println(url);
 		System.out.println("init");
 		File file = new File(url);
 		if(file.exists()){
